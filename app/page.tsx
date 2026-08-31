@@ -53,10 +53,16 @@ export default function Home() {
 
       <div className="ticker" aria-hidden="true"><span>LISTEN DEEPLY</span><b>✦</b><span>FRAME THE PROBLEM</span><b>✦</b><span>ALIGN THE TEAM</span><b>✦</b><span>DELIVER & LEARN</span></div>
 
-      <section className="senseStrip" aria-label="How I work">
-        <article><span className="senseFace" aria-hidden="true">◉</span><small>01 / LISTEN</small><b>I hear what people<br />really need.</b></article>
-        <article><span className="senseLink" aria-hidden="true">∞</span><small>02 / CONNECT</small><b>I join the dots<br />across the system.</b></article>
-        <article><span className="senseMove" aria-hidden="true">↗</span><small>03 / MOVE</small><b>I turn clarity<br />into progress.</b></article>
+      <section className="senseStrip" aria-label="My story from music to systems">
+        <article><span className="senseFace" aria-hidden="true">♪</span><small>CHAPTER 01 · MUSIC</small><b>First, I learned<br />to listen.</b><p>Years of music taught me that progress begins before the first note—with attention, patience and an ear for what is not being said.</p></article>
+        <article><span className="senseLink" aria-hidden="true">●●●</span><small>CHAPTER 02 · COMMUNITY</small><b>Then, I learned<br />to align people.</b><p>Teaching and events turned listening into action: understand different needs, coordinate moving parts and help people arrive at one shared moment.</p></article>
+        <article><span className="senseMove" aria-hidden="true">↗</span><small>CHAPTER 03 · TECHNOLOGY</small><b>Now, I turn needs<br />into systems.</b><p>At Generation Thailand, I found the bridge—requirements, data and delivery give structure to the human problems I have always enjoyed solving.</p></article>
+      </section>
+
+      <section className="storyBridge">
+        <p>SO THE CAREER CHANGE ISN’T A RESET.</p>
+        <h2>It is the next movement<br />of the <em>same story.</em></h2>
+        <div><span>LISTEN TO THE NEED</span><i>→</i><span>MAKE IT CLEAR</span><i>→</i><span>MOVE IT FORWARD</span></div>
       </section>
 
       <section className="feature" id="work">
