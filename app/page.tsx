@@ -79,7 +79,14 @@ export default function Home() {
 
       <section className="feature" id="work">
         <div className="sectionIntro"><p className="label">01 / FEATURED CASE STUDY</p><p className="statusPill">SPRINT 2 · IN PROGRESS</p></div>
-        <div className="featureTitle"><div><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div><div className="lookbookArt" aria-hidden="true"><span className="shirt">01</span><span className="pants">02</span><span className="bag">03</span><b>LOOK<br />BOOK</b></div></div>
+        <div className="featureTitle">
+          <div className="featureHeading"><span className="caseIndex">CASE 01</span><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div>
+          <aside className="featureAside">
+            <div className="productQuestion"><small>THE PRODUCT QUESTION</small><p>How might outfit inspiration become a clear, useful buying journey?</p></div>
+            <div className="lookbookArt" aria-hidden="true"><span className="shirt">01</span><span className="pants">02</span><span className="bag">03</span><b>LOOK<br />BOOK</b></div>
+            <div className="caseFacts"><span><b>MY ROLE</b>Project Lead + Backend</span><span><b>STATUS</b>Sprint 2 · In progress</span></div>
+          </aside>
+        </div>
 
         <div className="rubricTrail" aria-label="Project story aligned with the course rubric">
           <article><span>01</span><b>Understand</b><small>Business Model · Use Case</small></article>
