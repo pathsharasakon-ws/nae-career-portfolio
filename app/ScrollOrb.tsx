@@ -14,13 +14,13 @@ export default function ScrollOrb() {
       const total = Math.max(1, window.scrollY + storyEnd - window.innerHeight);
       const p = Math.min(1, Math.max(0, window.scrollY / total));
       const points = p < .5
-        ? { x: 68 + (78 - 68) * (p / .5), y: 30 + (57 - 30) * (p / .5), size: 72 - 18 * (p / .5) }
-        : { x: 78 + (64 - 78) * ((p - .5) / .5), y: 57 + (72 - 57) * ((p - .5) / .5), size: 54 - 26 * ((p - .5) / .5) };
+        ? { x: 67 + (78 - 67) * (p / .5), y: 28 + (55 - 28) * (p / .5), size: 190 - 32 * (p / .5) }
+        : { x: 78 + (65 - 78) * ((p - .5) / .5), y: 55 + (70 - 55) * ((p - .5) / .5), size: 158 - 48 * ((p - .5) / .5) };
       el.style.setProperty('--orb-x', `${points.x}vw`);
       el.style.setProperty('--orb-y', `${points.y}vh`);
-      el.style.setProperty('--orb-size', `${Math.max(28, points.size)}px`);
+      el.style.setProperty('--orb-size', `${Math.max(110, points.size)}px`);
       const visibility = p < .08 ? p / .08 : p > .9 ? (1 - p) / .1 : 1;
-      el.style.opacity = `${Math.max(0, visibility) * .5}`;
+      el.style.opacity = `${Math.max(0, visibility) * .72}`;
       frame = 0;
     };
     const onScroll = () => {
