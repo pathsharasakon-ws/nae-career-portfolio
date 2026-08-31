@@ -3,6 +3,8 @@
 import { useRef, useState } from 'react';
 
 const notes = [261.63, 329.63, 392, 493.88];
+const keyWords = ['LISTEN', '', 'ALIGN', '', 'BUILD', '', 'LEARN'];
+const blackKeyPositions = [14.28, 28.57, 57.14, 71.42, 85.71];
 
 export default function MusicCue() {
   const [playing, setPlaying] = useState(false);
@@ -37,7 +39,8 @@ export default function MusicCue() {
     <section className={`musicCue${playing ? ' isPlaying' : ''}`} aria-label="An interactive musical transition">
       <div className="musicCueCopy"><small>A SMALL ENCORE</small><p>Four notes.<br />One way of working.</p></div>
       <button type="button" onClick={play} aria-label="Play four musical notes">
-        {['LISTEN', 'ALIGN', 'BUILD', 'LEARN'].map((word, index) => <span key={word} style={{ '--key': index } as React.CSSProperties}><i>{word}</i></span>)}
+        {keyWords.map((word, index) => <span className={`whiteKey${word ? ' hasWord' : ''}`} key={`${word}-${index}`} style={{ '--key': Math.floor(index / 2) } as React.CSSProperties}>{word && <i>{word}</i>}</span>)}
+        {blackKeyPositions.map((left) => <span className="blackKey" key={left} style={{ '--left': `${left}%` } as React.CSSProperties} aria-hidden="true" />)}
       </button>
       <p className="musicHint">CLICK TO PLAY <b aria-hidden="true">♪</b></p>
     </section>
