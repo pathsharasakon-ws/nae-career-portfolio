@@ -1,3 +1,5 @@
+import ScrollOrb from './ScrollOrb';
+
 const methodology = [
   ['01', 'Discover', 'Explore the business context, user needs and technical constraints.'],
   ['02', 'Define', 'Turn broad ideas into a shared problem statement and clear requirements.'],
@@ -32,7 +34,7 @@ export default function Home() {
       </nav>
 
       <header className="hero">
-        <span className="movingOrb" aria-hidden="true" />
+        <ScrollOrb />
         <div className="heroCopy">
           <p className="kicker">ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
           <h1>PEOPLE <span>→</span><br />SYSTEMS <span>→</span><br /><em>PROGRESS.</em></h1>
