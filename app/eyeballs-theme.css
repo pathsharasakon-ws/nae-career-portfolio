@@ -27,6 +27,7 @@ body{background:var(--paper);background-image:none}.nav{margin:24px 2.5vw 0;widt
 
 .beliefThree{background:#dfffb5}
 @supports(animation-timeline:view()){.beliefThree{animation-name:beliefInUpBright;animation-range:entry 10% cover 42%}@keyframes beliefInUpBright{from{translate:0 16vh;opacity:.78}to{translate:0;opacity:1}}}
+.timeline>article>span{color:#4b49bd}
 
 /* Readability pass: preserve the palette while keeping small copy above AA contrast. */
 .senseStrip:before{display:none}.caseIndex{color:#5554c7}.executive>div>p:last-child,.shelfHead>p:last-child,.timeline h4,.timeline p{color:var(--muted)}.methodHead>p:last-child,.methodSteps p{color:#d8dcda}.communityCopy>p:not(.label){color:#e2e7e4}.community small{color:#cbd4cf}.caseFacts b{color:#45464c}.folderTab,.folderNo,.coming{color:#292930}
