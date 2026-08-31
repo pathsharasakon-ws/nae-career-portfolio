@@ -1,4 +1,5 @@
 import ScrollOrb from './ScrollOrb';
+import MusicCue from './MusicCue';
 
 const methodology = [
   ['01', 'Discover', 'Explore the business context, user needs and technical constraints.'],
@@ -57,6 +58,8 @@ export default function Home() {
         <h2>It is the next movement<br />of the <em>same story.</em></h2>
         <div><span>LISTEN TO THE NEED</span><i>→</i><span>MAKE IT CLEAR</span><i>→</i><span>MOVE IT FORWARD</span></div>
       </section>
+
+      <MusicCue />
 
       <section className="beliefs">
         <div className="beliefsHead"><p>3 THINGS I STRONGLY BELIEVE IN</p><h2>The principles behind<br />how I <em>show up.</em></h2></div>
