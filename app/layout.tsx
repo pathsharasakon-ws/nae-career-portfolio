@@ -13,17 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio — Product, Projects & Technology',
-  description: 'Career transition portfolio for Technical Project Manager, Product Owner, and IT Business Analyst opportunities.',
+  metadataBase: new URL('https://from-music-to-product-2026.pathsharasakon.chatgpt.site'),
+  title: 'Nae Pathsharasakon — Aspiring IT Business Analyst',
+  description: 'From rhythm to systems: portfolio of Nae Pathsharasakon, an aspiring IT Business Analyst connecting user needs, system thinking and collaborative delivery.',
   openGraph: {
-    title: 'I turn complexity into clear action.',
-    description: 'Product · Projects · Technology',
+    title: 'People → Systems → Progress.',
+    description: 'Nae Pathsharasakon · Aspiring IT Business Analyst',
     images: [{ url: '/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'I turn complexity into clear action.',
-    description: 'Product · Projects · Technology',
+    title: 'People → Systems → Progress.',
+    description: 'Nae Pathsharasakon · Aspiring IT Business Analyst',
     images: ['/og.png'],
   },
 };
@@ -34,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
