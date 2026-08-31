@@ -67,6 +67,16 @@ export default function Home() {
         <div><span>LISTEN TO THE NEED</span><i>→</i><span>MAKE IT CLEAR</span><i>→</i><span>MOVE IT FORWARD</span></div>
       </section>
 
+      <section className="beliefs">
+        <div className="beliefsHead"><p>3 THINGS I STRONGLY BELIEVE IN</p><h2>The principles behind<br />how I <em>show up.</em></h2></div>
+        <div className="beliefCollage">
+          <article className="beliefOne"><span>01</span><h3>Listen before<br />you define.</h3><p>The first request is rarely the whole problem. Better questions create better requirements.</p></article>
+          <article className="beliefTwo"><span>02</span><h3>Clarity is<br />a team sport.</h3><p>A plan only works when people share the same picture, language and next step.</p></article>
+          <article className="beliefThree"><span>03</span><h3>Progress beats<br />perfect plans.</h3><p>Make the smallest useful move, learn from reality and improve the next iteration.</p></article>
+          <div className="beliefDoodle" aria-hidden="true">♪ → ● → ↗</div>
+        </div>
+      </section>
+
       <section className="feature" id="work">
         <div className="sectionIntro"><p className="label">01 / FEATURED CASE STUDY</p><p className="statusPill">SPRINT 2 · IN PROGRESS</p></div>
         <div className="featureTitle"><div><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div><div className="lookbookArt" aria-hidden="true"><span className="shirt">01</span><span className="pants">02</span><span className="bag">03</span><b>LOOK<br />BOOK</b></div></div>
