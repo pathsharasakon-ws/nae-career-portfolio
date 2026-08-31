@@ -46,9 +46,9 @@ export default function Home() {
       <div className="ticker" aria-hidden="true"><span>LISTEN DEEPLY</span><b>✦</b><span>FRAME THE PROBLEM</span><b>✦</b><span>ALIGN THE TEAM</span><b>✦</b><span>DELIVER & LEARN</span></div>
 
       <section className="senseStrip" aria-label="My story from music to systems">
-        <article><span className="senseFace" aria-hidden="true">♪</span><small>CHAPTER 01 · MUSIC</small><b>First, I learned<br />to listen.</b><p>Years of music taught me that progress begins before the first note—with attention, patience and an ear for what is not being said.</p></article>
-        <article><span className="senseLink" aria-hidden="true">●●●</span><small>CHAPTER 02 · COMMUNITY</small><b>Then, I learned<br />to align people.</b><p>Teaching and events turned listening into action: understand different needs, coordinate moving parts and help people arrive at one shared moment.</p></article>
-        <article><span className="senseMove" aria-hidden="true">↗</span><small>CHAPTER 03 · TECHNOLOGY</small><b>Now, I turn needs<br />into systems.</b><p>At Generation Thailand, I found the bridge—requirements, data and delivery give structure to the human problems I have always enjoyed solving.</p></article>
+        <article><img className="storyIllustration" src="/illustration-music.png" alt="An illustrated Nae listening beside a piano before playing" /><div className="storyCopy"><small>CHAPTER 01 · MUSIC</small><b>First, I learned<br />to listen.</b><p>Years of music taught me that progress begins before the first note—with attention, patience and an ear for what is not being said.</p></div></article>
+        <article><img className="storyIllustration" src="/illustration-community.png" alt="An illustrated team listening, sharing ideas and aligning on a plan" /><div className="storyCopy"><small>CHAPTER 02 · COMMUNITY</small><b>Then, I learned<br />to align people.</b><p>Teaching and events turned listening into action: understand different needs, coordinate moving parts and help people arrive at one shared moment.</p></div></article>
+        <article><img className="storyIllustration" src="/illustration-technology.png" alt="An illustration showing a human need becoming a clear digital system" /><div className="storyCopy"><small>CHAPTER 03 · TECHNOLOGY</small><b>Now, I turn needs<br />into systems.</b><p>At Generation Thailand, I found the bridge—requirements, data and delivery give structure to the human problems I have always enjoyed solving.</p></div></article>
       </section>
 
       <section className="storyBridge">
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="featureHeading"><span className="caseIndex">CASE 01</span><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div>
           <aside className="featureAside">
             <div className="productQuestion"><small>THE PRODUCT QUESTION</small><p>How might outfit inspiration become a clear, useful buying journey?</p></div>
-            <div className="lookbookArt" aria-hidden="true"><span className="shirt">01</span><span className="pants">02</span><span className="bag">03</span><b>LOOK<br />BOOK</b></div>
+            <div className="lookbookArt"><img src="/illustration-lookbook.png" alt="An illustrated fashion Lookbook connected to an admin system and database" /></div>
             <div className="caseFacts"><span><b>MY ROLE</b>Project Lead + Backend</span><span><b>STATUS</b>Sprint 2 · In progress</span></div>
           </aside>
         </div>
