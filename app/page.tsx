@@ -38,7 +38,7 @@ export default function Home() {
           <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
           <span className="scribble scribbleStar" aria-hidden="true">✳</span>
           <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
-          <div className="imageFrame portraitFrame"><img src="/nae-portrait.png" alt="Portrait of Nae Pathsharasakon beside a piano" /></div>
+          <div className="imageFrame portraitFrame"><img src="/nae-portrait-retouched.png" alt="Portrait of Nae Pathsharasakon beside a piano" /></div>
           <div className="sticker stickerOne">FAST<br />LEARNER</div>
           <div className="sticker stickerTwo">DETAIL<br />MINDED</div>
           <div className="note">MUSIC → EVENTS → TECH<br /><b>Not a straight line. A useful one.</b></div>
