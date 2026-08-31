@@ -38,7 +38,7 @@ export default function Home() {
           <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
           <span className="scribble scribbleStar" aria-hidden="true">✳</span>
           <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
-          <div className="imageFrame"><img src="/nae-hero-piano-v3.png" alt="Balanced creative workspace with an accurate piano keyboard, laptop and system-flow notebook" /></div>
+          <div className="imageFrame portraitFrame"><img src="/nae-portrait.png" alt="Portrait of Nae Pathsharasakon beside a piano" /></div>
           <div className="sticker stickerOne">FAST<br />LEARNER</div>
           <div className="sticker stickerTwo">DETAIL<br />MINDED</div>
           <div className="note">MUSIC → EVENTS → TECH<br /><b>Not a straight line. A useful one.</b></div>
@@ -83,6 +83,12 @@ export default function Home() {
         </div>
 
         <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A five-person team is building a fashion e-commerce app that turns outfit inspiration into a useful buying journey through a Mix & Match Lookbook.</p><p>As Project Lead and Backend Developer, I translate the concept into clear requirements, priorities and an achievable system—while helping the team keep moving together. The project is currently in Sprint 2.</p></div></div>
+
+        <div className="projectProof">
+          <div><p className="label">PROJECT PROOF</p><h3>Built with a five-person team.<br />Visible while it evolves.</h3></div>
+          <div className="proofActions"><a href="https://github.com/pathsharasakon-ws/group-project-3" target="_blank" rel="noreferrer">View source repository ↗</a><span>LIVE DEMO · AFTER SPRINT 3</span></div>
+          <div className="contributors"><b>CONTRIBUTORS</b><a href="https://github.com/pathsharasakon-ws" target="_blank" rel="noreferrer">Nae</a><a href="https://github.com/drimmonline" target="_blank" rel="noreferrer">Mos</a><a href="https://github.com/Luknok-tky" target="_blank" rel="noreferrer">Luknok</a><a href="https://github.com/Bell914" target="_blank" rel="noreferrer">BM</a><a href="https://github.com/bird-sitthan" target="_blank" rel="noreferrer">Bird</a></div>
+        </div>
 
         <div className="method"><div className="methodHead"><p className="label">METHODOLOGY</p><h3>A practical loop from ambiguity to delivery.</h3><p>Our process is collaborative, lightweight and shaped around the realities of a learning team.</p></div><div className="methodSteps">{methodology.map(([no,title,text]) => <article key={no}><span>{no}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
 
