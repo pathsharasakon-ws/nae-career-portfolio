@@ -1,4 +1,3 @@
-import ScrollOrb from './ScrollOrb';
 import MusicCue from './MusicCue';
 
 const methodology = [
@@ -26,7 +25,6 @@ export default function Home() {
       </nav>
 
       <header className="hero">
-        <ScrollOrb />
         <div className="heroCopy">
           <p className="kicker">ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
           <h1>PEOPLE <span>→</span><br />SYSTEMS <span>→</span><br /><em>PROGRESS.</em></h1>
