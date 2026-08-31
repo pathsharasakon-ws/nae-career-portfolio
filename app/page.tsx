@@ -8,15 +8,6 @@ const methodology = [
   ['05', 'Review', 'Check progress together, surface constraints and adapt the next iteration.'],
 ];
 
-const recommendations = [
-  ['Validate the Lookbook', 'Test whether curated outfits solve a real styling or purchase-decision problem before investing in personalization.'],
-  ['Start curated, learn fast', 'Launch with team-curated outfit sets first; use real behaviour to shape later recommendations.'],
-  ['Measure meaningful events', 'Track lookbook views, set additions and completed orders—not only page traffic.'],
-  ['Define a business metric', 'Use average items per order as an early indicator of whether Mix & Match creates value.'],
-  ['Personalize gradually', 'Introduce purchase-history suggestions only after enough reliable customer data exists.'],
-  ['Protect customer trust', 'Define consent, access and retention rules before using purchase data for recommendations.'],
-];
-
 const journey = [
   ['2026 · NOW', 'Junior Software Developer Bootcamp', 'Generation Thailand', 'Full-time MERN training. Project Lead and Backend Developer in a five-person product team.'],
   ['2023–2025', 'Marketing, Events & Facilitator', 'Progression Vertical', 'Coordinated people, partners and moving parts from planning through on-site delivery and post-event review.'],
@@ -88,43 +79,24 @@ export default function Home() {
           </aside>
         </div>
 
-        <div className="rubricTrail" aria-label="Project story aligned with the course rubric">
-          <article><span>01</span><b>Understand</b><small>Business Model · Use Case</small></article>
-          <article><span>02</span><b>Shape</b><small>ER · Schema · Wireframe</small></article>
-          <article><span>03</span><b>Build</b><small>React · Components · Forms</small></article>
-          <article><span>04</span><b>Connect</b><small>CRUD · API · MongoDB</small></article>
-          <article><span>05</span><b>Explain</b><small>Clear communication · Demo</small></article>
-        </div>
-
-        <div className="executive panel"><p className="label">EXECUTIVE SUMMARY</p><div><p className="summaryLead">A five-person bootcamp team is building a fashion e-commerce web app that helps customers discover and buy complete outfit sets through a Mix & Match Lookbook.</p><p>I lead the team while developing the admin-side backend. My focus is translating a creative product concept into requirements, a prioritised backlog and a system the team can realistically deliver. The project began on 30 June and entered Sprint 2 on 24 August; current outcomes are therefore delivery progress, not market impact.</p></div></div>
-
-        <div className="caseGrid">
-          <article className="paperCard"><p className="label">BUSINESS CONTEXT</p><h3>Shopping for one item is easy. Styling a whole look is harder.</h3><p>The concept explores how an online fashion store could reduce outfit uncertainty, inspire customers and potentially increase multi-item purchases.</p></article>
-          <article className="coralCard"><p className="label">PROBLEM STATEMENT</p><h3>How might we turn outfit inspiration into a clear, useful buying journey?</h3><p>The feature must feel valuable to customers while remaining achievable within the team’s sprint, data and technical constraints.</p></article>
-          <article className="darkCard"><p className="label">MY ROLE & SCOPE</p><h3>Project Lead<br />+ Backend Developer</h3><ul><li>Requirements, diagrams & backlog</li><li>Team planning and coordination</li><li>Admin backend, database & APIs</li><li>Wireframes and shared product thinking</li></ul></article>
-        </div>
+        <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A five-person team is building a fashion e-commerce app that turns outfit inspiration into a useful buying journey through a Mix & Match Lookbook.</p><p>As Project Lead and Backend Developer, I translate the concept into clear requirements, priorities and an achievable system—while helping the team keep moving together. The project is currently in Sprint 2.</p></div></div>
 
         <div className="method"><div className="methodHead"><p className="label">METHODOLOGY</p><h3>A practical loop from ambiguity to delivery.</h3><p>Our process is collaborative, lightweight and shaped around the realities of a learning team.</p></div><div className="methodSteps">{methodology.map(([no,title,text]) => <article key={no}><span>{no}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
-
-        <div className="requirements panel"><div><p className="label">REQUIREMENTS & PRIORITISATION</p><h3>Protect the core journey.<br /><em>Then earn the differentiator.</em></h3></div><div className="priority"><article><span>MUST HAVE</span><p>Product catalogue · authentication · cart · order flow · admin management</p></article><article><span>DIFFERENTIATOR</span><p>Lookbook albums · complete-set discovery · future purchase-history suggestions</p></article></div></div>
 
         <div className="system"><div><p className="label">SOLUTION & SYSTEM OVERVIEW</p><h3>One experience,<br />three connected layers.</h3></div><div className="systemFlow"><article><span>01</span><b>React interface</b><small>Browse · Lookbook · Admin</small></article><i>→</i><article><span>02</span><b>Express REST API</b><small>Business logic · Data flow</small></article><i>→</i><article><span>03</span><b>MongoDB</b><small>Products · Users · Orders</small></article></div></div>
 
         <div className="outcomes"><div className="outcomeCopy"><p className="label">CURRENT OUTCOMES</p><h3>Evidence of progress,<br />without pretending it is impact.</h3><p>Because the product is still in Sprint 2, I separate completed delivery work from future business hypotheses.</p></div><div className="outcomeList"><p><b>01</b> Shared product concept and core customer journey</p><p><b>02</b> Requirements, wireframes, diagrams and prioritised backlog</p><p><b>03</b> Delivery rhythm adapted around a five-person team’s constraints</p><p><b>04</b> Backend, database, API and admin work in progress</p></div></div>
 
-        <div className="recommendations"><div className="recommendHead"><p className="label">BUSINESS RECOMMENDATIONS</p><h3>Build less.<br /><em>Learn more.</em></h3><p>These are next-step hypotheses—not claimed results.</p></div><div className="recommendGrid">{recommendations.map(([title,text], i) => <article key={title}><span>0{i+1}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
-
         <blockquote>“A compelling feature idea is not enough on its own. It must connect to a genuine user problem, translate into clear requirements and fit real technical and team constraints.”<cite>— Reflection from Sprint 2</cite></blockquote>
       </section>
 
       <section className="projectShelf">
-        <div className="shelfHead"><p className="label">02 / SELECTED JSD13 PROJECTS</p><h2>A learning archive.<br /><em>Built in public.</em></h2><p>Selected work from the Generation Thailand bootcamp—curated for business analysis, system thinking and delivery rather than displayed as a list of coding exercises.</p></div>
+        <div className="shelfHead"><p className="label">02 / SUPPORTING WORK</p><h2>Two smaller signals<br />of <em>how I think.</em></h2><p>Compact learning notes that connect business intent to system structure.</p></div>
         <div className="projectFolders">
-          <article className="folder folderLime"><div className="folderTab">TEAM PROJECT · IN PROGRESS</div><span className="folderNo">01</span><div className="folderIcon">LOOK<br />BOOK</div><h3>Fashion E-commerce<br />& Mix and Match</h3><p>Turning a product idea into user flows, requirements, backlog, system design and a deliverable MERN application.</p><ul><li>Project leadership</li><li>Admin backend & APIs</li><li>Requirements & prioritisation</li></ul><a href="#work">Read featured case study ↑</a></article>
-          <article className="folder folderCream"><div className="folderTab">INDIVIDUAL CONCEPT</div><span className="folderNo">02</span><div className="musicStamp" aria-hidden="true">♪</div><h3>Piano Practice<br />E-commerce Concept</h3><p>A domain-led concept translating an educator’s insight into a business model, use cases, ER diagram and MongoDB schema.</p><ul><li>Business Model Canvas</li><li>Use cases & data model</li><li>Domain-to-system thinking</li></ul><span className="coming">CASE NOTE · JSD13</span></article>
-          <article className="folder folderCoral"><div className="folderTab">INDIVIDUAL EXERCISE</div><span className="folderNo">03</span><div className="routeStamp" aria-hidden="true">REQ<br />↓<br />API</div><h3>Requirements-to-System<br />Breakdown</h3><p>Mapping requirements into routes, components, application state and API responsibilities before implementation.</p><ul><li>Functional decomposition</li><li>Route & component mapping</li><li>State and API planning</li></ul><span className="coming">CASE NOTE · JSD13</span></article>
+          <article className="folder folderCream"><div className="folderTab">INDIVIDUAL CONCEPT</div><span className="folderNo">01</span><div className="musicStamp" aria-hidden="true">♪</div><h3>Piano Practice<br />E-commerce Concept</h3><p>Translating an educator’s insight into a business model, use cases and data structure.</p><span className="coming">CASE NOTE · JSD13</span></article>
+          <article className="folder folderCoral"><div className="folderTab">INDIVIDUAL EXERCISE</div><span className="folderNo">02</span><div className="routeStamp" aria-hidden="true">REQ<br />↓<br />API</div><h3>Requirements-to-System<br />Breakdown</h3><p>Mapping requirements into routes, components, state and API responsibilities.</p><span className="coming">CASE NOTE · JSD13</span></article>
         </div>
-        <p className="shelfNote">Not every exercise belongs in a portfolio. These three show how I think, organise and connect business intent to technical delivery.</p>
+        <p className="shelfNote">Enough to show range—without turning the portfolio into a course archive.</p>
       </section>
 
       <section className="community"><div className="communityVisual"><span>PLAN</span><b>ALIGN · FACILITATE · REVIEW</b><div className="crowd" aria-hidden="true">● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●</div></div><div className="communityCopy"><p className="label">03 / EXPERIENCE IN ACTION</p><h2>Coordinating a community—<em>not just an event.</em></h2><p>Led two consecutive annual editions of Community Crank at Progression Vertical, coordinating planning, promotion, sponsors, vendors, instructors, community partners, on-site facilitation and post-event review.</p><div className="tags"><span>Stakeholder alignment</span><span>Event operations</span><span>Community insight</span><span>Feedback review</span></div><small>Also supported Gear Swap and Ladies Night as separate community initiatives.</small></div></section>
