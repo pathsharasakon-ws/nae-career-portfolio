@@ -40,6 +40,9 @@ export default function Home() {
           <div className="actions"><a className="btn dark" href="#work">Explore my work ↓</a><a className="btn line" href="#contact">Let’s connect ↗</a></div>
         </div>
         <div className="heroVisual" aria-label="A creative workspace representing the connection between people and systems">
+          <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
+          <span className="scribble scribbleStar" aria-hidden="true">✳</span>
+          <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
           <div className="imageFrame"><img src="/nae-workspace-hero.png" alt="Desk with notebook, laptop and product planning materials" /></div>
           <div className="sticker stickerOne">FAST<br />LEARNER</div>
           <div className="sticker stickerTwo">DETAIL<br />MINDED</div>
@@ -72,6 +75,16 @@ export default function Home() {
         <div className="recommendations"><div className="recommendHead"><p className="label">BUSINESS RECOMMENDATIONS</p><h3>Build less.<br /><em>Learn more.</em></h3><p>These are next-step hypotheses—not claimed results.</p></div><div className="recommendGrid">{recommendations.map(([title,text], i) => <article key={title}><span>0{i+1}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
 
         <blockquote>“A compelling feature idea is not enough on its own. It must connect to a genuine user problem, translate into clear requirements and fit real technical and team constraints.”<cite>— Reflection from Sprint 2</cite></blockquote>
+      </section>
+
+      <section className="projectShelf">
+        <div className="shelfHead"><p className="label">02 / SELECTED JSD13 PROJECTS</p><h2>A learning archive.<br /><em>Built in public.</em></h2><p>Selected work from the Generation Thailand bootcamp—curated for business analysis, system thinking and delivery rather than displayed as a list of coding exercises.</p></div>
+        <div className="projectFolders">
+          <article className="folder folderLime"><div className="folderTab">TEAM PROJECT · IN PROGRESS</div><span className="folderNo">01</span><div className="folderIcon">LOOK<br />BOOK</div><h3>Fashion E-commerce<br />& Mix and Match</h3><p>Turning a product idea into user flows, requirements, backlog, system design and a deliverable MERN application.</p><ul><li>Project leadership</li><li>Admin backend & APIs</li><li>Requirements & prioritisation</li></ul><a href="#work">Read featured case study ↑</a></article>
+          <article className="folder folderCream"><div className="folderTab">INDIVIDUAL CONCEPT</div><span className="folderNo">02</span><div className="musicStamp" aria-hidden="true">♪</div><h3>Piano Practice<br />E-commerce Concept</h3><p>A domain-led concept translating an educator’s insight into a business model, use cases, ER diagram and MongoDB schema.</p><ul><li>Business Model Canvas</li><li>Use cases & data model</li><li>Domain-to-system thinking</li></ul><span className="coming">CASE NOTE · JSD13</span></article>
+          <article className="folder folderCoral"><div className="folderTab">INDIVIDUAL EXERCISE</div><span className="folderNo">03</span><div className="routeStamp" aria-hidden="true">REQ<br />↓<br />API</div><h3>Requirements-to-System<br />Breakdown</h3><p>Mapping requirements into routes, components, application state and API responsibilities before implementation.</p><ul><li>Functional decomposition</li><li>Route & component mapping</li><li>State and API planning</li></ul><span className="coming">CASE NOTE · JSD13</span></article>
+        </div>
+        <p className="shelfNote">Not every exercise belongs in a portfolio. These three show how I think, organise and connect business intent to technical delivery.</p>
       </section>
 
       <section className="community"><div className="communityVisual"><span>80–100</span><b>participants<br />per edition</b><div className="crowd" aria-hidden="true">● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●</div></div><div className="communityCopy"><p className="label">02 / EXPERIENCE IN ACTION</p><h2>Coordinating a community—<em>not just an event.</em></h2><p>Led two consecutive annual editions of Community Crank at Progression Vertical, coordinating planning, promotion, sponsors, vendors, instructors, community partners, on-site facilitation and post-event review for approximately 80–100 participants per edition.</p><div className="tags"><span>Stakeholder alignment</span><span>Event operations</span><span>Community insight</span><span>Feedback review</span></div><small>Also supported Gear Swap and Ladies Night as separate community initiatives.</small></div></section>
