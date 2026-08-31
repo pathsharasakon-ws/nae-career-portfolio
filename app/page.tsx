@@ -26,7 +26,7 @@ export default function Home() {
 
       <header className="hero">
         <div className="heroCopy">
-          <p className="kicker">ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
+          <p className="kicker"><span>ILLUSTRATED EDITION · V2</span> ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
           <h1>PEOPLE <span>→</span><br />SYSTEMS <span>→</span><br /><em>PROGRESS.</em></h1>
           <p className="lead">I connect user needs, system thinking and collaborative execution—currently leading a five-person MERN project at Generation Thailand.</p>
           <p className="thaiLine">เข้าใจคน · มองเห็นระบบ · พาทีมไปข้างหน้า</p>
@@ -36,7 +36,7 @@ export default function Home() {
           <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
           <span className="scribble scribbleStar" aria-hidden="true">✳</span>
           <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
-          <div className="imageFrame portraitFrame"><img src="/nae-portrait-retouched.png" alt="Portrait of Nae Pathsharasakon beside a piano" /></div>
+          <div className="imageFrame portraitFrame"><img src="/illustration-music-v2.png" alt="A hand-drawn Nae listening beside a piano" /></div>
           <div className="sticker stickerOne">FAST<br />LEARNER</div>
           <div className="sticker stickerTwo">DETAIL<br />MINDED</div>
           <div className="note">MUSIC → EVENTS → TECH<br /><b>Not a straight line. A useful one.</b></div>
@@ -46,8 +46,8 @@ export default function Home() {
       <div className="ticker" aria-hidden="true"><span>LISTEN DEEPLY</span><b>✦</b><span>FRAME THE PROBLEM</span><b>✦</b><span>ALIGN THE TEAM</span><b>✦</b><span>DELIVER & LEARN</span></div>
 
       <section className="senseStrip" aria-label="My story from music to systems">
-        <article><img className="storyIllustration" src="/illustration-music.png" alt="An illustrated Nae listening beside a piano before playing" /><div className="storyCopy"><small>CHAPTER 01 · MUSIC</small><b>First, I learned<br />to listen.</b><p>Years of music taught me that progress begins before the first note—with attention, patience and an ear for what is not being said.</p></div></article>
-        <article><img className="storyIllustration" src="/illustration-community.png" alt="An illustrated team listening, sharing ideas and aligning on a plan" /><div className="storyCopy"><small>CHAPTER 02 · COMMUNITY</small><b>Then, I learned<br />to align people.</b><p>Teaching and events turned listening into action: understand different needs, coordinate moving parts and help people arrive at one shared moment.</p></div></article>
+        <article><img className="storyIllustration" src="/illustration-music-v2.png" alt="An illustrated Nae listening beside a piano before playing" /><div className="storyCopy"><small>CHAPTER 01 · MUSIC</small><b>First, I learned<br />to listen.</b><p>Years of music taught me that progress begins before the first note—with attention, patience and an ear for what is not being said.</p></div></article>
+        <article><img className="storyIllustration" src="/illustration-community-v2b.png" alt="Five illustrated teammates—three men and two women—sharing ideas and aligning on a plan" /><div className="storyCopy"><small>CHAPTER 02 · COMMUNITY</small><b>Then, I learned<br />to align people.</b><p>Teaching and events turned listening into action: understand different needs, coordinate moving parts and help people arrive at one shared moment.</p></div></article>
         <article><img className="storyIllustration" src="/illustration-technology.png" alt="An illustration showing a human need becoming a clear digital system" /><div className="storyCopy"><small>CHAPTER 03 · TECHNOLOGY</small><b>Now, I turn needs<br />into systems.</b><p>At Generation Thailand, I found the bridge—requirements, data and delivery give structure to the human problems I have always enjoyed solving.</p></div></article>
       </section>
 
