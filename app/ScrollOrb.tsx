@@ -13,15 +13,14 @@ export default function ScrollOrb() {
       const storyEnd = document.querySelector('.storyBridge')?.getBoundingClientRect().bottom ?? window.innerHeight * 4;
       const total = Math.max(1, window.scrollY + storyEnd - window.innerHeight);
       const p = Math.min(1, Math.max(0, window.scrollY / total));
-      const points = p < .42
-        ? { x: 42 + (77 - 42) * (p / .42), y: 24 + (58 - 24) * (p / .42), size: 420 - 155 * (p / .42) }
-        : p < .74
-          ? { x: 77 + (24 - 77) * ((p - .42) / .32), y: 58 + (42 - 58) * ((p - .42) / .32), size: 265 - 105 * ((p - .42) / .32) }
-          : { x: 24 + (72 - 24) * ((p - .74) / .26), y: 42 + (66 - 42) * ((p - .74) / .26), size: 160 - 112 * ((p - .74) / .26) };
+      const points = p < .5
+        ? { x: 68 + (78 - 68) * (p / .5), y: 30 + (57 - 30) * (p / .5), size: 72 - 18 * (p / .5) }
+        : { x: 78 + (64 - 78) * ((p - .5) / .5), y: 57 + (72 - 57) * ((p - .5) / .5), size: 54 - 26 * ((p - .5) / .5) };
       el.style.setProperty('--orb-x', `${points.x}vw`);
       el.style.setProperty('--orb-y', `${points.y}vh`);
-      el.style.setProperty('--orb-size', `${Math.max(48, points.size)}px`);
-      el.style.opacity = p >= .995 ? '0' : '.94';
+      el.style.setProperty('--orb-size', `${Math.max(28, points.size)}px`);
+      const visibility = p < .08 ? p / .08 : p > .9 ? (1 - p) / .1 : 1;
+      el.style.opacity = `${Math.max(0, visibility) * .5}`;
       frame = 0;
     };
     const onScroll = () => {
