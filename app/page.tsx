@@ -32,6 +32,7 @@ export default function Home() {
       </nav>
 
       <header className="hero">
+        <span className="movingOrb" aria-hidden="true" />
         <div className="heroCopy">
           <p className="kicker">ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
           <h1>PEOPLE <span>→</span><br />SYSTEMS <span>→</span><br /><em>PROGRESS.</em></h1>
@@ -61,6 +62,14 @@ export default function Home() {
       <section className="feature" id="work">
         <div className="sectionIntro"><p className="label">01 / FEATURED CASE STUDY</p><p className="statusPill">SPRINT 2 · IN PROGRESS</p></div>
         <div className="featureTitle"><div><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div><div className="lookbookArt" aria-hidden="true"><span className="shirt">01</span><span className="pants">02</span><span className="bag">03</span><b>LOOK<br />BOOK</b></div></div>
+
+        <div className="rubricTrail" aria-label="Project story aligned with the course rubric">
+          <article><span>01</span><b>Understand</b><small>Business Model · Use Case</small></article>
+          <article><span>02</span><b>Shape</b><small>ER · Schema · Wireframe</small></article>
+          <article><span>03</span><b>Build</b><small>React · Components · Forms</small></article>
+          <article><span>04</span><b>Connect</b><small>CRUD · API · MongoDB</small></article>
+          <article><span>05</span><b>Explain</b><small>Clear communication · Demo</small></article>
+        </div>
 
         <div className="executive panel"><p className="label">EXECUTIVE SUMMARY</p><div><p className="summaryLead">A five-person bootcamp team is building a fashion e-commerce web app that helps customers discover and buy complete outfit sets through a Mix & Match Lookbook.</p><p>I lead the team while developing the admin-side backend. My focus is translating a creative product concept into requirements, a prioritised backlog and a system the team can realistically deliver. The project began on 30 June and entered Sprint 2 on 24 August; current outcomes are therefore delivery progress, not market impact.</p></div></div>
 
@@ -93,7 +102,7 @@ export default function Home() {
         <p className="shelfNote">Not every exercise belongs in a portfolio. These three show how I think, organise and connect business intent to technical delivery.</p>
       </section>
 
-      <section className="community"><div className="communityVisual"><span>80–100</span><b>participants<br />per edition</b><div className="crowd" aria-hidden="true">● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●</div></div><div className="communityCopy"><p className="label">02 / EXPERIENCE IN ACTION</p><h2>Coordinating a community—<em>not just an event.</em></h2><p>Led two consecutive annual editions of Community Crank at Progression Vertical, coordinating planning, promotion, sponsors, vendors, instructors, community partners, on-site facilitation and post-event review for approximately 80–100 participants per edition.</p><div className="tags"><span>Stakeholder alignment</span><span>Event operations</span><span>Community insight</span><span>Feedback review</span></div><small>Also supported Gear Swap and Ladies Night as separate community initiatives.</small></div></section>
+      <section className="community"><div className="communityVisual"><span>PLAN</span><b>ALIGN · FACILITATE · REVIEW</b><div className="crowd" aria-hidden="true">● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●</div></div><div className="communityCopy"><p className="label">03 / EXPERIENCE IN ACTION</p><h2>Coordinating a community—<em>not just an event.</em></h2><p>Led two consecutive annual editions of Community Crank at Progression Vertical, coordinating planning, promotion, sponsors, vendors, instructors, community partners, on-site facilitation and post-event review.</p><div className="tags"><span>Stakeholder alignment</span><span>Event operations</span><span>Community insight</span><span>Feedback review</span></div><small>Also supported Gear Swap and Ladies Night as separate community initiatives.</small></div></section>
 
       <section className="journey" id="journey"><div className="journeyHeader"><p className="label">03 / THE UNCONVENTIONAL ROUTE</p><h2>Different chapters.<br /><em>One consistent pattern.</em></h2><p>Listening carefully, creating structure and helping people make progress.</p></div><div className="timeline">{journey.map(([year,role,org,text]) => <article key={role}><span>{year}</span><div><h3>{role}</h3><h4>{org}</h4><p>{text}</p></div></article>)}</div></section>
 
