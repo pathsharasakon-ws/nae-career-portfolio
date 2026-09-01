@@ -109,3 +109,26 @@ main{overflow:clip}
 footer{background-image:repeating-linear-gradient(-8deg,transparent 0 50px,rgba(36,32,43,.08) 51px 52px),radial-gradient(ellipse at 15% 20%,transparent 0 105px,rgba(255,250,240,.28) 106px 110px,transparent 111px)}
 .musicCue{background-color:var(--cream);background-image:repeating-linear-gradient(0deg,transparent 0 28px,rgba(86,72,107,.07) 29px 30px)}
 @media(max-width:560px){.senseStrip,.beliefs,.feature,.projectShelf,.journey,.credentials,footer,.musicCue{background-size:auto}.storyBridge{background-size:170px 170px}.method,.outcomes,.community{background-size:auto}.journey{background-image:repeating-linear-gradient(0deg,transparent 0 36px,rgba(86,72,107,.05) 37px 38px)}}
+
+/* Drawings, not wallpaper: restore quiet surfaces and use illustration as punctuation. */
+.senseStrip,.beliefs,.feature,.projectShelf,.journey,.credentials,footer,.musicCue,.storyBridge,.method,.outcomes,.community{background-image:none}
+.beliefs,.projectShelf,.credentials,.method{position:relative;overflow:hidden}
+.sectionSketch{display:block;object-fit:contain;pointer-events:none;user-select:none}
+.sketchBeliefs{position:absolute;width:min(33vw,420px);right:-5%;top:2%;opacity:.2;transform:rotate(7deg)}
+.sketchMethod{position:absolute;width:min(27vw,350px);right:2%;top:14px;opacity:.18;filter:grayscale(.15)}
+.sketchProjects{position:absolute;width:min(29vw,380px);right:-3%;top:1%;opacity:.2;transform:rotate(-5deg)}
+.sketchJourney{width:min(100%,340px);margin:38px auto 0;filter:drop-shadow(7px 8px 0 rgba(142,141,242,.18))}
+.sketchCredentials{position:absolute;width:min(29vw,380px);right:1%;top:-3%;opacity:.22;transform:rotate(3deg)}
+.illustratedCommunity{padding:18px 18px 28px;background:#eeeaff;justify-content:flex-end}
+.illustratedCommunity img{width:100%;height:auto;max-height:390px;object-fit:contain;margin:auto 0}
+.illustratedCommunity b{position:relative;margin-top:12px;font-size:12px}
+.kicker,.label,.caseIndex,.projectMeta,.senseStrip small,.musicCueCopy small,.musicHint,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.toolRow b{font-size:12px;line-height:1.35}
+.tags span,.caseFacts b,.contributors b{font-size:11px}.credentialGrid p,.folder>p,.timeline p{font-size:14px}
+.hero h1 em{background:var(--lime);padding:0 .05em}.feature h2 em,.storyBridge h2 em,.community h2 em,.journey h2 em,footer h2 em{background:none;padding:0;color:#5650c8;box-shadow:inset 0 -.13em 0 rgba(142,141,242,.2)}
+.kicker span{background:#eeeaff;box-shadow:3px 3px 0 var(--ink)}
+.productQuestion small{font-size:11px}
+body{background-image:none}
+.senseStrip article:before{display:none}
+.hero h1 span{color:#625bd2}
+@media(max-width:900px){.sketchBeliefs,.sketchMethod,.sketchProjects,.sketchCredentials{width:190px;right:-38px;opacity:.13}.illustratedCommunity{min-height:390px}.illustratedCommunity img{max-height:320px}.sketchJourney{width:260px}.kicker,.label,.caseIndex,.projectMeta,.senseStrip small{font-size:11px}}
+@media(max-width:560px){.sketchBeliefs,.sketchMethod,.sketchProjects,.sketchCredentials{width:112px;right:10px;top:10px;opacity:.14}.illustratedCommunity{min-height:300px;padding:12px 12px 22px}.illustratedCommunity img{max-height:240px}.illustratedCommunity b{font-size:10px}.sketchJourney{width:210px;margin-top:24px}.kicker,.label,.caseIndex,.projectMeta,.senseStrip small,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.toolRow b{font-size:11px}.feature h2 em,.storyBridge h2 em,.community h2 em,.journey h2 em,footer h2 em{box-shadow:inset 0 -.1em 0 rgba(142,141,242,.17)}}
