@@ -36,7 +36,7 @@ export default function Home() {
           <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
           <span className="scribble scribbleStar" aria-hidden="true">✳</span>
           <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
-          <div className="imageFrame portraitFrame"><img src="/illustration-music-v2.png" alt="A hand-drawn Nae listening beside a piano" /></div>
+          <div className="imageFrame portraitFrame"><img src="/nae-portrait-retouched.png" alt="Portrait of Nae Pathsharasakon beside a piano" /></div>
           <div className="sticker stickerOne">FAST<br />LEARNER</div>
           <div className="sticker stickerTwo">DETAIL<br />MINDED</div>
           <div className="note">MUSIC → EVENTS → TECH<br /><b>Not a straight line. A useful one.</b></div>
@@ -60,7 +60,6 @@ export default function Home() {
       <MusicCue />
 
       <section className="beliefs">
-        <img className="sectionSketch sketchBeliefs" src="/illustration-music-v2.png" alt="" aria-hidden="true" />
         <div className="beliefsHead"><p>3 THINGS I STRONGLY BELIEVE IN</p><h2>The principles behind<br />how I <em>show up.</em></h2></div>
         <div className="beliefCollage">
           <article className="beliefOne"><span>01</span><h3>Listen before<br />you define.</h3><p>The first request is rarely the whole problem. Better questions create better requirements.</p></article>
