@@ -26,7 +26,7 @@ export default function Home() {
 
       <header className="hero">
         <div className="heroCopy">
-          <p className="kicker"><span>ILLUSTRATED EDITION · V2</span> ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
+          <p className="kicker">ASPIRING IT BUSINESS ANALYST · BANGKOK / REMOTE</p>
           <h1>PEOPLE <span>→</span><br />SYSTEMS <span>→</span><br /><em>PROGRESS.</em></h1>
           <p className="lead">I connect user needs, system thinking and collaborative execution—currently leading a five-person MERN project at Generation Thailand.</p>
           <p className="thaiLine">เข้าใจคน · มองเห็นระบบ · พาทีมไปข้างหน้า</p>
