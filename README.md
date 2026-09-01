@@ -58,6 +58,6 @@ npm run build
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/pathsharasakon-po-6902b029b)
-- [GitHub](https://github.com/pathsharasakon-ws)
+- [GitHub profile](https://github.com/pathsharasakon-ws)
+- [Portfolio source](https://github.com/pathsharasakon-ws/nae-career-portfolio)
 - Email: pathsharasakon@gmail.com
-
