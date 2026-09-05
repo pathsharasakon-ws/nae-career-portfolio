@@ -15,17 +15,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://from-music-to-product-2026.pathsharasakon.chatgpt.site'),
-  title: 'Nae Pathsharasakon — Aspiring IT Business Analyst',
-  description: 'From rhythm to systems: portfolio of Nae Pathsharasakon, an aspiring IT Business Analyst connecting user needs, system thinking and collaborative delivery.',
+  title: 'Nae Pathsharasakon — Junior IT Business Analyst & Project Coordinator',
+  description: 'From rhythm to systems: portfolio of Nae Pathsharasakon, a Junior IT Business Analyst and Project Coordinator connecting user needs, system thinking and collaborative delivery.',
   openGraph: {
     title: 'People → Systems → Progress.',
-    description: 'Nae Pathsharasakon · Aspiring IT Business Analyst',
+    description: 'Nae Pathsharasakon · Junior IT Business Analyst & Project Coordinator',
     images: [{ url: '/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'People → Systems → Progress.',
-    description: 'Nae Pathsharasakon · Aspiring IT Business Analyst',
+    description: 'Nae Pathsharasakon · Junior IT Business Analyst & Project Coordinator',
     images: ['/og.png'],
   },
 };
