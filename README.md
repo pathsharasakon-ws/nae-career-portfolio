@@ -26,6 +26,8 @@ My responsibilities:
 
 Project status: Sprint 2, in progress. Demo and product screenshots will be added after Sprint 3.
 
+- [View the OCCASION Admin Dashboard](https://occasion-admin-dashboard.vercel.app)
+
 ## Core skills
 
 - User and stakeholder discovery

@@ -84,7 +84,7 @@ export default function Home() {
 
         <div className="projectProof">
           <div><p className="label">PROJECT PROOF</p><h3>Built with a five-person team.<br />Visible while it evolves.</h3></div>
-          <div className="proofActions"><a href="https://github.com/pathsharasakon-ws/group-project-3" target="_blank" rel="noreferrer">View GitHub repository ↗</a><span>DEMO + SCREENSHOTS · AFTER SPRINT 3</span></div>
+          <div className="proofActions"><a href="https://github.com/pathsharasakon-ws/group-project-3" target="_blank" rel="noreferrer">View GitHub repository ↗</a><a href="https://occasion-admin-dashboard.vercel.app" target="_blank" rel="noreferrer">View Admin Dashboard ↗</a></div>
           <div className="contributors"><b>CONTRIBUTORS</b><a href="https://github.com/pathsharasakon-ws" target="_blank" rel="noreferrer">Nae</a><a href="https://github.com/drimmonline" target="_blank" rel="noreferrer">Mos</a><a href="https://github.com/Luknok-tky" target="_blank" rel="noreferrer">Luknok</a><a href="https://github.com/Bell914" target="_blank" rel="noreferrer">BM</a><a href="https://github.com/bird-sitthan" target="_blank" rel="noreferrer">Bird</a></div>
         </div>
 
