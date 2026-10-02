@@ -1,6 +1,6 @@
 # Nae Pathsharasakon — Career Portfolio
 
-Career-transition portfolio for opportunities in Junior IT Business Analysis, IT Project Coordination, Product Operations, and Implementation.
+Career-transition portfolio for opportunities in Junior IT Business Analysis, IT Project Coordination, Product Operations, and Implementation. Built around the idea **“From Rhythm to Systems”** and the working approach **Listen → Connect → Move**.
 
 [View the live portfolio](https://from-music-to-product-2026.pathsharasakon.chatgpt.site)
 
@@ -10,21 +10,36 @@ Career-transition portfolio for opportunities in Junior IT Business Analysis, IT
 
 My background spans music education, community events, and software development. Across those chapters, the consistent pattern is the same: listen carefully, create structure, align people, and move work forward.
 
+I am a graduate of Generation Thailand's Junior Software Developer programme (JSD13), where I completed full-time MERN training and worked as Project Lead and Backend Developer in a five-person product team.
+
 ## Featured case study
 
 ### Fashion E-commerce Mix & Match Lookbook
 
-A five-person Generation Thailand project that turns outfit inspiration into a useful buying journey.
+A completed five-person Generation Thailand team project that turns outfit inspiration into a useful buying journey through a fashion e-commerce experience with Mix & Match / Lookbook functionality.
+
+- [Customer e-commerce experience](https://jsd13-group3-hydra-ranger.vercel.app/)
+- [Admin dashboard](https://occasion-admin-dashboard.vercel.app/login)
+- [Project repository](https://github.com/pathsharasakon-ws/group-project-3)
 
 My responsibilities:
 
-- Project lead and team coordination
+- Project Lead and Backend Developer
+- Team coordination and delivery follow-up
 - Requirements and backlog breakdown
 - Diagrams and wireframe collaboration
 - Admin backend, database, API, and mock data
-- Sprint planning and delivery follow-up
+- Sprint planning and prioritisation
 
-Project status: Sprint 2, in progress. Demo and product screenshots will be added after Sprint 3.
+Project status: **Completed and deployed.** These are delivered project outcomes, not claims of measured business impact. The application was produced collaboratively by a five-person team.
+
+## Portfolio design system
+
+- Forest Green foundation with white, high-contrast typography
+- Geist Sans for primary copy and headings
+- Geist Mono for labels, metadata, and system details
+- Minimum readable sizes maintained across desktop and mobile
+- Reduced-motion preferences respected
 
 ## Core skills
 
