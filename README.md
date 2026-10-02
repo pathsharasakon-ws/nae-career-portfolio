@@ -41,8 +41,6 @@ Project status: **Completed and deployed.** These are delivered project outcomes
 - Minimum readable sizes maintained across desktop and mobile
 - Reduced-motion preferences respected
 
-- [View the OCCASION Admin Dashboard](https://occasion-admin-dashboard.vercel.app)
-
 ## Core skills
 
 - User and stakeholder discovery
