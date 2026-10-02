@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'People → Systems → Progress.',
     description: 'Nae Pathsharasakon · Junior IT Business Analyst & Project Coordinator',
-    images: [{ url: '/og.png', width: 1200, height: 630 }],
+    images: [{ url: '/og-v2.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'People → Systems → Progress.',
     description: 'Nae Pathsharasakon · Junior IT Business Analyst & Project Coordinator',
-    images: ['/og.png'],
+    images: ['/og-v2.png'],
   },
 };
 

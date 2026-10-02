@@ -4,7 +4,7 @@ Career-transition portfolio for opportunities in Junior IT Business Analysis, IT
 
 [View the live portfolio](https://from-music-to-product-2026.pathsharasakon.chatgpt.site)
 
-![Portfolio preview](public/og.png)
+![Portfolio preview in the EDF67D, F896D8, CA7DF9, 724CF9 and 564592 palette](public/og-v2.png)
 
 ## From music to product delivery
 
@@ -35,7 +35,8 @@ Project status: **Completed and deployed.** These are delivered project outcomes
 
 ## Portfolio design system
 
-- Forest Green foundation with white, high-contrast typography
+- Brand palette: `#EDF67D`, `#F896D8`, `#CA7DF9`, `#724CF9`, and `#564592`
+- High-contrast pairings use deep purple with light lime
 - Geist Sans for primary copy and headings
 - Geist Mono for labels, metadata, and system details
 - Minimum readable sizes maintained across desktop and mobile
