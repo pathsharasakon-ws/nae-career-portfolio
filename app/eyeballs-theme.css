@@ -181,3 +181,23 @@ body{background:var(--forest);color:var(--ink);font-size:16px;background-image:r
 small,.community small,.systemFlow small{font-size:14px;line-height:1.5}.methodSteps p,.skillCards p,.folder li{font-size:16px;line-height:1.65}
 .btn{font-size:14px}.thaiLine{font-size:16px}.note{font-size:13px;line-height:1.55}
 @media(max-width:560px){.kicker,.label,.caseIndex,.projectMeta,.statusPill,.senseStrip small,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.credentialGrid p,.toolRow b,.toolRow span,.footerBar{font-size:12px!important}.nav{font-size:12px}.community small,.systemFlow small{font-size:14px}}
+
+/* Electric encore: restore the graphic palette and make every piano key legible */
+:root{--electric-lime:#C5E34A}
+.hero h1 em{background:var(--electric-lime);color:var(--ink);padding:0 .08em;box-shadow:8px 8px 0 var(--pink)}
+.statusPill{background:var(--electric-lime);color:var(--ink);border:2px solid var(--ink)}
+.btn:hover,.proofActions a:hover,.contributors a:hover{background:var(--pink);color:var(--ink)}
+.senseStrip article:nth-child(1){box-shadow:8px 9px 0 var(--electric-lime)}.senseStrip article:nth-child(2){box-shadow:8px 9px 0 var(--pink)}.senseStrip article:nth-child(3){box-shadow:8px 9px 0 var(--violet)}
+.musicCue{background:var(--forest-deep);color:var(--white);border-block:4px solid var(--electric-lime);padding-block:64px}
+.musicCueCopy small,.musicHint{color:var(--white)}.musicCueCopy p{color:var(--white)}
+.musicCue button{position:relative;display:flex;width:100%;min-width:0;height:180px;gap:0;overflow:visible;background:var(--forest-deep);border:4px solid var(--forest-deep);border-radius:10px;box-shadow:10px 12px 0 var(--pink)}
+.musicCue button>.whiteKey,.musicCue button>.whiteKey:nth-child(even){flex:1;min-width:0;height:100%;padding:0 6px 20px;background:#F3FAE1;color:var(--ink);border-right:2px solid var(--forest-deep);border-radius:0 0 6px 6px;transform:none;z-index:1}
+.musicCue button>.whiteKey:first-child{border-radius:6px 0 0 6px}.musicCue button>.whiteKey:nth-child(7){border-right:0;border-radius:0 6px 6px 0}
+.musicCue button>.whiteKey.hasWord{background:var(--electric-lime)}
+.musicCue button>.whiteKey i{font-size:12px;line-height:1.2;color:var(--ink)}
+.musicCue button>.blackKey,.musicCue button:hover>.blackKey{position:absolute;left:var(--left);top:0;width:8%;height:62%;padding:0;background:var(--forest-deep);border:3px solid var(--violet);border-top:0;border-radius:0 0 7px 7px;box-shadow:0 6px 0 var(--pink);z-index:4;transform:translateX(-50%)}
+.musicCue.isPlaying button>.whiteKey.hasWord{animation:encoreGlow .34s ease calc(var(--key) * .19s) 1}.musicHint b{color:var(--electric-lime);text-shadow:4px 4px 0 var(--violet)}
+@keyframes encoreGlow{0%,100%{background:var(--electric-lime)}50%{background:var(--pink);box-shadow:inset 0 -14px 0 var(--violet)}}
+@media(max-width:900px){.musicCue{padding-block:48px}.musicCue button{height:150px;max-width:780px;margin-inline:auto}}
+@media(max-width:560px){.musicCue button{height:125px;box-shadow:6px 7px 0 var(--pink)}.musicCue button>.whiteKey{padding-inline:2px;padding-bottom:14px}.musicCue button>.whiteKey i{font-size:10px;letter-spacing:.02em}.musicCue button>.blackKey,.musicCue button:hover>.blackKey{width:9%;border-width:2px;box-shadow:0 4px 0 var(--pink)}}
+@media(prefers-reduced-motion:reduce){.musicCue.isPlaying button>.whiteKey.hasWord{animation:none;background:var(--electric-lime)}}
