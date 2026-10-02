@@ -1,4 +1,4 @@
-# Nae Pathsharasakon — Career Portfolio
+# Pathsharasakon Po (Nae) — Career Portfolio
 
 Career-transition portfolio for opportunities in Junior IT Business Analysis, IT Project Coordination, Product Operations, and Implementation. Built around the idea **“From Rhythm to Systems”** and the working approach **Listen → Connect → Move**.
 
@@ -20,7 +20,8 @@ A completed five-person Generation Thailand team project that turns outfit inspi
 
 - [Customer e-commerce experience](https://jsd13-group3-hydra-ranger.vercel.app/)
 - [Admin dashboard](https://occasion-admin-dashboard.vercel.app/login)
-- [Project repository](https://github.com/pathsharasakon-ws/group-project-3)
+- [Main team repository](https://github.com/Bell914/jsd13-group3-HydraRanger)
+- [Sprint 1 repository](https://github.com/pathsharasakon-ws/group-project-3)
 
 My responsibilities:
 
@@ -30,8 +31,26 @@ My responsibilities:
 - Diagrams and wireframe collaboration
 - Admin backend, database, API, and mock data
 - Sprint planning and prioritisation
+- Security enhancement: rate limiting, file-upload validation, and input validation
+- Rule-based personalised size recommendation
+- AI-assisted development with hands-on review and manual testing
 
 Project status: **Completed and deployed.** These are delivered project outcomes, not claims of measured business impact. The application was produced collaboratively by a five-person team.
+
+## Supporting work
+
+### SELA Chiang Mai — AI Review Intelligence Proof of Concept
+
+A Business Analysis case note from the F11AA Business AI Practitioners programme. I interviewed the hotel owner and researched hotel operations, guest feedback, and marketing needs. Discovery reframed the initial request into a clearer opportunity: consolidate fragmented reviews so they can inform marketing insight and decision-making.
+
+- Stakeholder interview and contextual research
+- Business problem and requirements definition
+- Proof-of-concept framing
+- Business value and next-step recommendations
+
+### OCCASION — Focused Product Enhancements
+
+Two focused additions that show requirements-to-implementation thinking: security hardening and a rule-based personalised size recommendation. AI supported development, while I reviewed implementation decisions and manually tested the resulting behaviour.
 
 ## Portfolio design system
 

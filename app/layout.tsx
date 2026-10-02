@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://from-music-to-product-2026.pathsharasakon.chatgpt.site'),
-  title: 'Nae Pathsharasakon — Junior IT Business Analyst & Project Coordinator',
-  description: 'From rhythm to systems: portfolio of Nae Pathsharasakon, a Junior IT Business Analyst and Project Coordinator connecting user needs, system thinking and collaborative delivery.',
+  title: 'Pathsharasakon Po (Nae) — Junior IT Business Analyst & Project Coordinator',
+  description: 'From rhythm to systems: portfolio of Pathsharasakon Po (Nae), a Junior IT Business Analyst and Project Coordinator connecting user needs, system thinking and collaborative delivery.',
   openGraph: {
     title: 'People → Systems → Progress.',
     description: 'Nae Pathsharasakon · Junior IT Business Analyst & Project Coordinator',
