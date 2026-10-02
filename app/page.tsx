@@ -9,7 +9,7 @@ const methodology = [
 ];
 
 const journey = [
-  ['30 JUN–02 OCT 2026', 'Junior Software Developer Bootcamp', 'Generation Thailand · JSD13 Graduate', 'Completed full-time MERN training, serving as Project Lead and Backend Developer in a five-person product team.'],
+  ['2026', 'Junior Software Developer Bootcamp', 'Generation Thailand · JSD13 Graduate', 'Completed full-time MERN training, serving as Project Lead and Backend Developer in a five-person product team.'],
   ['2023–2025', 'Marketing, Events & Facilitator', 'Progression Vertical', 'Coordinated people, partners and moving parts from planning through on-site delivery and post-event review.'],
   ['ONGOING', 'Online Piano Instructor', 'Independent', 'Design personalised learning journeys, explain complexity clearly and improve through continuous feedback.'],
   ['FOUNDATION', 'Master’s & Bachelor’s in Music', 'Payap University', 'A foundation in discipline, deep listening, preparation and performance under pressure.'],
@@ -70,29 +70,29 @@ export default function Home() {
       </section>
 
       <section className="feature" id="work">
-        <div className="sectionIntro"><p className="label">01 / FEATURED CASE STUDY</p><p className="statusPill">SPRINT 2 · IN PROGRESS</p></div>
+        <div className="sectionIntro"><p className="label">01 / FEATURED CASE STUDY</p><p className="statusPill">COMPLETED · TEAM PROJECT</p></div>
         <div className="featureTitle">
           <div className="featureHeading"><span className="caseIndex">CASE 01</span><h2>From an outfit idea<br />to a <em>working system.</em></h2><p className="projectMeta">FASHION E-COMMERCE · MERN · 5-PERSON TEAM · 2026</p></div>
           <aside className="featureAside">
             <div className="productQuestion"><small>THE PRODUCT QUESTION</small><p>How might outfit inspiration become a clear, useful buying journey?</p></div>
             <div className="lookbookArt"><img src="/illustration-lookbook.png" alt="An illustrated fashion Lookbook connected to an admin system and database" /></div>
-            <div className="caseFacts"><span><b>MY ROLE</b>Project Lead + Backend</span><span><b>STATUS</b>Sprint 2 · In progress</span></div>
+            <div className="caseFacts"><span><b>MY ROLE</b>Project Lead + Backend Developer</span><span><b>STATUS</b>Completed · Deployed</span></div>
           </aside>
         </div>
 
-        <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A fashion e-commerce app that turns outfit inspiration into a useful buying journey.</p><p>I lead requirements, priorities and delivery while building the admin backend with a five-person team.</p></div></div>
+        <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A fashion e-commerce app that turns outfit inspiration into a useful buying journey.</p><p>I led requirements, priorities and delivery while building the admin backend with a five-person team.</p></div></div>
 
         <div className="projectProof">
-          <div><p className="label">PROJECT PROOF</p><h3>Built with a five-person team.<br />Visible while it evolves.</h3></div>
-          <div className="proofActions"><a href="https://github.com/pathsharasakon-ws/group-project-3" target="_blank" rel="noreferrer">View GitHub repository ↗</a><span>DEMO + SCREENSHOTS · AFTER SPRINT 3</span></div>
+          <div><p className="label">PROJECT PROOF</p><h3>Built and delivered<br />with a five-person team.</h3></div>
+          <div className="proofActions"><a href="https://jsd13-group3-hydra-ranger.vercel.app/" target="_blank" rel="noreferrer">View customer experience ↗</a><a href="https://occasion-admin-dashboard.vercel.app/login" target="_blank" rel="noreferrer">View admin dashboard ↗</a><a href="https://github.com/pathsharasakon-ws/group-project-3" target="_blank" rel="noreferrer">View GitHub repository ↗</a></div>
           <div className="contributors"><b>CONTRIBUTORS</b><a href="https://github.com/pathsharasakon-ws" target="_blank" rel="noreferrer">Nae</a><a href="https://github.com/drimmonline" target="_blank" rel="noreferrer">Mos</a><a href="https://github.com/Luknok-tky" target="_blank" rel="noreferrer">Luknok</a><a href="https://github.com/Bell914" target="_blank" rel="noreferrer">BM</a><a href="https://github.com/bird-sitthan" target="_blank" rel="noreferrer">Bird</a></div>
         </div>
 
-        <div className="method"><img className="sectionSketch sketchMethod" src="/illustration-technology.png" alt="" aria-hidden="true" /><div className="methodHead"><p className="label">METHODOLOGY</p><h3>A practical loop from ambiguity to delivery.</h3><p>Our process is collaborative, lightweight and shaped around the realities of a learning team.</p></div><div className="methodSteps">{methodology.map(([no,title,text]) => <article key={no}><span>{no}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
+        <div className="method"><img className="sectionSketch sketchMethod" src="/illustration-technology.png" alt="" aria-hidden="true" /><div className="methodHead"><p className="label">METHODOLOGY</p><h3>A practical loop from ambiguity to delivery.</h3><p>Our process was collaborative, lightweight and shaped around the realities of a five-person learning team.</p></div><div className="methodSteps">{methodology.map(([no,title,text]) => <article key={no}><span>{no}</span><h4>{title}</h4><p>{text}</p></article>)}</div></div>
 
         <div className="system"><div><p className="label">SOLUTION & SYSTEM OVERVIEW</p><h3>One experience,<br />three connected layers.</h3></div><div className="systemFlow"><article><span>01</span><b>React interface</b><small>Browse · Lookbook · Admin</small></article><i>→</i><article><span>02</span><b>Express REST API</b><small>Business logic · Data flow</small></article><i>→</i><article><span>03</span><b>MongoDB</b><small>Products · Users · Orders</small></article></div></div>
 
-        <div className="outcomes"><div className="outcomeCopy"><p className="label">CURRENT OUTCOMES</p><h3>Progress we can<br />show today.</h3><p>Sprint 2 evidence—not claimed business impact.</p></div><div className="outcomeList"><p><b>01</b> Core customer journey and product concept</p><p><b>02</b> Requirements, wireframes and prioritised backlog</p><p><b>03</b> Team delivery rhythm and shared ownership</p><p><b>04</b> Backend, API and admin work in progress</p></div></div>
+        <div className="outcomes"><div className="outcomeCopy"><p className="label">DELIVERED OUTCOMES</p><h3>What the team<br />completed.</h3><p>Delivered product evidence—not claimed business impact.</p></div><div className="outcomeList"><p><b>01</b> Deployed customer e-commerce experience</p><p><b>02</b> Requirements, wireframes and prioritised backlog</p><p><b>03</b> Connected React, REST API and MongoDB system</p><p><b>04</b> Deployed admin dashboard and backend workflows</p></div></div>
       </section>
 
       <section className="projectShelf">

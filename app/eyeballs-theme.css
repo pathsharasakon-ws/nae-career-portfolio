@@ -149,3 +149,33 @@ body{background-image:none}
 @media(max-width:560px){.skillsSpotlight{padding:75px 6vw}.skillsIntro h2{font-size:14vw}.skillCards{grid-template-columns:1fr}.skillCards article,.skillCards article:last-child{grid-column:auto;min-height:190px}.skillCards h3{font-size:25px}}
 @media(max-width:900px){.sketchBeliefs,.sketchMethod,.sketchProjects,.sketchCredentials{width:190px;right:-38px;opacity:.13}.illustratedCommunity{min-height:390px}.illustratedCommunity img{max-height:320px}.sketchJourney{width:260px}.kicker,.label,.caseIndex,.projectMeta,.senseStrip small{font-size:11px}}
 @media(max-width:560px){.sketchBeliefs,.sketchMethod,.sketchProjects,.sketchCredentials{width:112px;right:10px;top:10px;opacity:.14}.illustratedCommunity{min-height:300px;padding:12px 12px 22px}.illustratedCommunity img{max-height:240px}.illustratedCommunity b{font-size:10px}.sketchJourney{width:210px;margin-top:24px}.kicker,.label,.caseIndex,.projectMeta,.senseStrip small,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.toolRow b{font-size:11px}.feature h2 em,.storyBridge h2 em,.community h2 em,.journey h2 em,footer h2 em{box-shadow:inset 0 -.1em 0 rgba(142,141,242,.17)}}
+
+/* Forest portfolio system: two English typefaces, high contrast, readable scale */
+:root{--forest:#0b3d2e;--forest-deep:#072d22;--forest-mid:#15523f;--forest-soft:#1d624c;--white:#fffdf5;--ink:#082b21;--paper:var(--forest);--cream:var(--forest-mid);--muted:#d7e8e0;--line:rgba(255,253,245,.34)}
+*,*::before,*::after{font-family:var(--font-geist-sans),Arial,sans-serif!important}
+.nav,.kicker,.label,.statusPill,.projectMeta,.caseIndex,.caseFacts,.methodSteps span,.systemFlow span,.outcomeList b,.folderTab,.folderNo,.coming,.timeline>article>span,.timeline h4,.credentialGrid span,.credentialGrid p,.toolRow b,.toolRow span,.footerBar,.contributors b,.proofActions,.senseStrip small{font-family:var(--font-geist-mono),monospace!important}
+body{background:var(--forest);color:var(--white);font-size:16px;background-image:radial-gradient(rgba(255,255,255,.06) .7px,transparent .7px)}
+.nav{background:rgba(7,45,34,.94);color:var(--white);border-color:var(--line);font-size:13px}.wordmark b{background:var(--forest-soft);color:var(--white);border:1px solid var(--line)}
+.hero,.senseStrip,.beliefs,.feature,.projectShelf,.journey,.skillsSpotlight{background:var(--forest);color:var(--white)}
+.storyBridge,.method,.community{background:var(--forest-deep);color:var(--white)}
+.credentials,.outcomes,footer{background:var(--forest-mid);color:var(--white)}
+.senseStrip article,.senseStrip article:nth-child(2),.senseStrip article:nth-child(3),.executive,.systemFlow article,.systemFlow article:nth-of-type(2),.systemFlow article:nth-of-type(3),.folderCream,.folderCoral,.folderLime,.skillCards article,.skillCards article:nth-child(2),.skillCards article:nth-child(3),.skillCards article:nth-child(5),.illustratedCommunity{background:var(--forest-mid);color:var(--white);border-color:var(--line)}
+.beliefCollage article{background:var(--forest-mid)!important;color:var(--white)!important;border-color:var(--line)!important}
+.panel,.folder,.skillCards article,.lookbookArt,.communityVisual{box-shadow:8px 9px 0 var(--forest-deep);border-color:var(--line)}
+.lookbookArt,.imageFrame{background:var(--forest-soft);border-color:var(--line)}
+.btn,.btn.dark,.btn.line,.statusPill,.toolRow span{background:var(--forest-deep);color:var(--white);border-color:var(--white)}
+.sticker,.stickerOne,.stickerTwo,.note{background:var(--forest-mid);color:var(--white);border-color:var(--white);box-shadow:5px 5px 0 var(--forest-deep)}
+.ticker{background:var(--forest-deep);color:var(--white);border-block:1px solid var(--line)}
+.hero h1 span,.ticker b,.label:before,.methodSteps span,.timeline>article>span{color:#d8ff49}
+.hero h1 em,.feature h2 em,.storyBridge h2 em,.community h2 em,.journey h2 em,footer h2 em{color:var(--white);background:transparent}
+.lead,.storyCopy p,.executive>div>p:last-child,.methodHead>p:last-child,.methodSteps p,.outcomeCopy>p:last-child,.shelfHead>p:last-child,.communityCopy>p:not(.label),.community small,.journeyHeader>p:last-child,.timeline p,.timeline h4,.skillsIntro>p:last-child,.skillCards p{color:var(--muted)}
+.projectShelf:before{color:rgba(255,255,255,.05)}
+.caseFacts,.contributors,.contactRow,.footerBar,.credentialGrid,.timeline article,.methodSteps,.recommendGrid{border-color:var(--line)}
+.projectProof{background:var(--forest-mid);color:var(--white);border:1px solid var(--line)}
+.proofActions a,.contributors a{background:var(--forest-deep);color:var(--white);border:1px solid var(--line)}
+.musicCue{background:var(--forest-mid);color:var(--white);border-color:var(--line)}.musicCue button{background:var(--forest-deep)}.musicCue button>span,.musicCue button>span:nth-child(even){background:var(--forest-soft);color:var(--white)}.musicCue button>span:after{background:var(--forest-deep)}.musicHint b{color:var(--white)}
+.kicker,.label,.caseIndex,.projectMeta,.statusPill,.senseStrip small,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.credentialGrid p,.toolRow b,.toolRow span,.contributors b,.footerBar{font-size:12px!important;line-height:1.45}
+.nav,.proofActions,.caseFacts,.timeline h4,.tags span{font-size:13px!important;line-height:1.45}
+small,.community small,.systemFlow small{font-size:14px;line-height:1.5}.methodSteps p,.skillCards p,.folder li{font-size:16px;line-height:1.65}
+.btn{font-size:14px}.thaiLine{font-size:16px}.note{font-size:13px;line-height:1.55}
+@media(max-width:560px){.kicker,.label,.caseIndex,.projectMeta,.statusPill,.senseStrip small,.folderTab,.folderNo,.coming,.timeline>article>span,.credentialGrid span,.credentialGrid p,.toolRow b,.toolRow span,.footerBar{font-size:12px!important}.nav{font-size:12px}.community small,.systemFlow small{font-size:14px}}
