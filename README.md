@@ -36,6 +36,7 @@ Project status: **Completed and deployed.** These are delivered project outcomes
 ## Portfolio design system
 
 - Brand palette: `#EDF67D`, `#F896D8`, `#CA7DF9`, `#724CF9`, and `#564592`
+- Main canvas background: `#F3FAE1`
 - High-contrast pairings use deep purple with light lime
 - Geist Sans for primary copy and headings
 - Geist Mono for labels, metadata, and system details
