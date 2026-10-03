@@ -4,12 +4,12 @@ const methodology = [
   ['01', 'Discover', 'Explore the business context, user needs and technical constraints.'],
   ['02', 'Define', 'Turn broad ideas into a shared problem statement and clear requirements.'],
   ['03', 'Plan', 'Break work into priorities, backlog items, owners and sprint goals.'],
-  ['04', 'Build', 'Support delivery while developing admin backend, database, APIs and mock data.'],
+  ['04', 'Build', 'Own admin product flows, variants, validation and authentication refinements.'],
   ['05', 'Review', 'Check progress together, surface constraints and adapt the next iteration.'],
 ];
 
 const journey = [
-  ['2026', 'Junior Software Developer Bootcamp', 'Generation Thailand · JSD13 Graduate', 'Completed full-time MERN training, serving as Project Lead and Backend Developer in a five-person product team.'],
+  ['2026', 'Junior Software Developer Bootcamp', 'Generation Thailand · JSD13 Graduate', 'Completed full-time MERN training, serving as Team Leader, Scrum Master and Product Owner in a five-person product team.'],
   ['2023–2025', 'Marketing, Events & Facilitator', 'Progression Vertical', 'Coordinated people, partners and moving parts from planning through on-site delivery and post-event review.'],
   ['ONGOING', 'Online Piano Instructor', 'Independent', 'Design personalised learning journeys, explain complexity clearly and improve through continuous feedback.'],
   ['FOUNDATION', 'Master’s & Bachelor’s in Music', 'Payap University', 'A foundation in discipline, deep listening, preparation and performance under pressure.'],
@@ -76,11 +76,11 @@ export default function Home() {
           <aside className="featureAside">
             <div className="productQuestion"><small>THE PRODUCT QUESTION</small><p>How might outfit inspiration become a clear, useful buying journey?</p></div>
             <div className="lookbookArt"><img src="/illustration-lookbook.png" alt="An illustrated fashion Lookbook connected to an admin system and database" /></div>
-            <div className="caseFacts"><span><b>MY ROLE</b>Project Lead + Backend Developer</span><span><b>STATUS</b>Completed · Deployed</span></div>
+            <div className="caseFacts"><span><b>MY ROLE</b>Team Leader · Scrum Master · Product Owner</span><span><b>DELIVERY SCOPE</b>Admin product flows · variants · validation · auth</span></div>
           </aside>
         </div>
 
-        <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A fashion e-commerce app that turns outfit inspiration into a useful buying journey.</p><p>I led requirements, priorities and delivery while building the admin backend with a five-person team.</p></div></div>
+        <div className="executive panel"><p className="label">PROJECT BRIEF</p><div><p className="summaryLead">A fashion e-commerce app that turns outfit inspiration into a useful buying journey.</p><p>I served as Team Leader, Scrum Master and Product Owner, leading requirements, backlog and sprint delivery while owning the Admin product flows within a five-person team.</p></div></div>
 
         <div className="projectProof">
           <div><p className="label">PROJECT PROOF</p><h3>Built and delivered<br />with a five-person team.</h3></div>

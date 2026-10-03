@@ -10,7 +10,7 @@ Career-transition portfolio for opportunities in Junior IT Business Analysis, IT
 
 My background spans music education, community events, and software development. Across those chapters, the consistent pattern is the same: listen carefully, create structure, align people, and move work forward.
 
-I am a graduate of Generation Thailand's Junior Software Developer programme (JSD13), where I completed full-time MERN training and worked as Project Lead and Backend Developer in a five-person product team.
+I am a graduate of Generation Thailand's Junior Software Developer programme (JSD13), where I completed full-time MERN training and served as Team Leader, Scrum Master, and Product Owner in a five-person product team.
 
 ## Featured case study
 
@@ -25,11 +25,11 @@ A completed five-person Generation Thailand team project that turns outfit inspi
 
 My responsibilities:
 
-- Project Lead and Backend Developer
+- Team Leader, Scrum Master, and Product Owner
 - Team coordination and delivery follow-up
 - Requirements and backlog breakdown
 - Diagrams and wireframe collaboration
-- Admin backend, database, API, and mock data
+- Admin product flows, including product management, variants, form validation, and authentication refinement
 - Sprint planning and prioritisation
 - Security enhancement: rate limiting, file-upload validation, and input validation
 - Rule-based personalised size recommendation
