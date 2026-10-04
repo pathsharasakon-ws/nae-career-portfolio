@@ -6,13 +6,13 @@ Career-transition portfolio for opportunities in Junior IT Business Analysis, IT
 
 ![Portfolio preview in the EDF67D, F896D8, CA7DF9, 724CF9 and 564592 palette](public/og-v2.png)
 
-## From music to product delivery
+## Recruiter-first portfolio
 
-My background spans music education, community events, and software development. Across those chapters, the consistent pattern is the same: listen carefully, create structure, align people, and move work forward.
+The site leads with target roles and evidence before the longer career story. It positions my background in music education, community events, and software development around one consistent pattern: listen carefully, create structure, align people, and move work forward.
 
 I am a graduate of Generation Thailand's Junior Software Developer programme (JSD13), where I completed full-time MERN training and served as Team Leader, Scrum Master, and Product Owner in a five-person product team.
 
-## Featured case study
+## Case study 01 — OCCASION
 
 ### Fashion E-commerce Mix & Match Lookbook
 
@@ -23,12 +23,13 @@ A completed five-person Generation Thailand team project that turns outfit inspi
 - [Main team repository](https://github.com/Bell914/jsd13-group3-HydraRanger)
 - [Sprint 1 repository](https://github.com/pathsharasakon-ws/group-project-3)
 
-My responsibilities:
+The case study separates my contribution from the five-person team's delivery and follows a BA-oriented structure: Problem / User Need → Stakeholders / Discovery → Requirements → Prioritization → Solution / Delivery → Validation → Delivered Outcome.
+
+My contribution:
 
 - Team Leader, Scrum Master, and Product Owner
 - Team coordination and delivery follow-up
 - Requirements and backlog breakdown
-- Diagrams and wireframe collaboration
 - Admin product flows, including product management, variants, form validation, and authentication refinement
 - Sprint planning and prioritisation
 - Security enhancement: rate limiting, file-upload validation, and input validation
@@ -37,9 +38,7 @@ My responsibilities:
 
 Project status: **Completed and deployed.** These are delivered project outcomes, not claims of measured business impact. The application was produced collaboratively by a five-person team.
 
-## Supporting work
-
-### SELA Chiang Mai — AI Review Intelligence Proof of Concept
+## Case study 02 — SELA Chiang Mai AI Review Intelligence
 
 A Business Analysis case note from the F11AA Business AI Practitioners programme. I interviewed the hotel owner and researched hotel operations, guest feedback, and marketing needs. Discovery reframed the initial request into a clearer opportunity: consolidate fragmented reviews so they can inform marketing insight and decision-making.
 
@@ -48,17 +47,21 @@ A Business Analysis case note from the F11AA Business AI Practitioners programme
 - Proof-of-concept framing
 - Business value and next-step recommendations
 
-### OCCASION — Focused Product Enhancements
+This is presented as a case note, not a deployed production system. The portfolio does not claim measured business impact.
 
-Two focused additions that show requirements-to-implementation thinking: security hardening and a rule-based personalised size recommendation. AI supported development, while I reviewed implementation decisions and manually tested the resulting behaviour.
+## Community delivery evidence
+
+Community Crank experience is stated within the evidence available in the CV: nearly 200 attendees, 10 vendors, and 50+ sponsors.
 
 ## Core skills
 
-- User and stakeholder discovery
-- Requirements and process mapping
-- Planning and team coordination
-- Backend, API, and data foundations
-- Clear communication and facilitation
+- Requirements elicitation
+- Stakeholder interviews
+- Process and workflow analysis
+- Backlog prioritization
+- Agile/Scrum delivery
+- Cross-functional coordination
+- SQL, REST APIs, and data foundations
 
 ## Technology
 
