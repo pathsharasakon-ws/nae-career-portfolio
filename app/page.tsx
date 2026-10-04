@@ -53,7 +53,6 @@ export default function Home() {
         </div>
         <div className="heroVisual" aria-label="Portrait and visual notes connecting music, community and technology">
           <span className="scribble scribbleArrow" aria-hidden="true">↝</span>
-          <span className="scribble scribbleStar" aria-hidden="true">✳</span>
           <span className="scribble scribbleNote" aria-hidden="true">listen first!</span>
           <div className="imageFrame portraitFrame">
             <Image src="/nae-portrait-retouched.png" alt="Nae Pathsharasakon beside a piano" fill priority sizes="(max-width: 900px) 90vw, 40vw" />
